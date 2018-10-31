@@ -1,0 +1,12 @@
+.container-fluid{
+    background-color: #343a40;
+    
+}
+.container-fluid div
+{
+    padding-top:0.5%;
+    padding-bottom: 0.5%;
+    color:#a7a7a7;
+    font-size: small;
+    text-align: center;
+}

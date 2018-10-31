@@ -1,0 +1,46 @@
+#formation{
+    /* margin-top : 100px; */
+    padding: 30px;
+    padding-top:20px;
+    background:#1E6F8C;
+}
+
+h2{
+    font-weight: bold;
+    color:white;
+}
+h3,h4{
+    color:#0C2E40;
+}
+
+.t2{
+    font-size: 25px;
+    font-weight: bold;
+    color:#31B8FF;
+    margin-bottom: 20px;
+}
+
+.t3{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+}
+.t4{
+    color:white;
+}
+.t5{
+    font-size: 13px;
+    color:white;
+}
+
+#divInfo{
+    text-align: center;
+    padding-top:70px;
+}
+#divContact{
+    text-align: center;
+    padding-top:50px;
+}
+#divAboutMe{
+    text-align: center;
+}

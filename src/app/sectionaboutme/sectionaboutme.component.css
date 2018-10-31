@@ -1,0 +1,42 @@
+#AboutMe{
+    /* margin-top : 100px; */
+    padding: 30px;
+    padding-top:70px;
+    background:#1E6F8C;
+}
+
+h2{
+    font-weight: bold;
+    color:white;
+}
+h3,h4{
+    color:#0C2E40;
+}
+
+h5{
+    color:black;
+}
+
+.t2{
+    font-size: 25px;
+    font-weight: bold;
+    color:#31B8FF;
+    margin-bottom: 20px;
+}
+.t4{
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+}
+
+#divInfo{
+    text-align: center;
+    padding-top:70px;
+}
+#divContact{
+    text-align: center;
+    padding-top:50px;
+}
+#divAboutMe{
+    text-align: center;
+}
