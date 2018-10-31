@@ -32,15 +32,3 @@ h3,h4{
     font-size: 13px;
     color:white;
 }
-
-#divInfo{
-    text-align: center;
-    padding-top:70px;
-}
-#divContact{
-    text-align: center;
-    padding-top:50px;
-}
-#divAboutMe{
-    text-align: center;
-}

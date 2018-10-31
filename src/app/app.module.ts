@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './sectionskills/skills.component';
 import { SectionformationComponent } from './sectionformation/sectionformation.component';
+import { SectionexperienceComponent } from './sectionexperience/sectionexperience.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SectionformationComponent } from './sectionformation/sectionformation.c
     NavbarComponent,
     FooterComponent,
     SkillsComponent,
-    SectionformationComponent
+    SectionformationComponent,
+    SectionexperienceComponent
   ],
   imports: [
     BrowserModule

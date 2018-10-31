@@ -15,3 +15,20 @@ li{
 .t4{
     font-weight: bold;
 }
+
+th{
+    text-align:center;
+}
+
+tr th{
+    color:#1E6F8C;
+}
+
+#langues, #programmes, #lang-prog{
+    margin-left:40px;
+}
+
+#programmes img,#lang-prog img{
+    height:30px;
+    width:auto;
+}
