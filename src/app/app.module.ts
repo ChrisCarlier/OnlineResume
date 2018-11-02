@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { SkillsComponent } from './sectionskills/skills.component';
 import { SectionformationComponent } from './sectionformation/sectionformation.component';
 import { SectionexperienceComponent } from './sectionexperience/sectionexperience.component';
+import { SpeakingComponent } from './speaking/speaking.component';
+import { ProgramComponent } from './program/program.component';
+import { ProglanguageComponent } from './proglanguage/proglanguage.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { SectionexperienceComponent } from './sectionexperience/sectionexperienc
     FooterComponent,
     SkillsComponent,
     SectionformationComponent,
-    SectionexperienceComponent
+    SectionexperienceComponent,
+    SpeakingComponent,
+    ProgramComponent,
+    ProglanguageComponent
   ],
   imports: [
     BrowserModule

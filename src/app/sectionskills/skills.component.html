@@ -5,183 +5,42 @@
   </div>
   <div class="container">
       <div class="row">
-          <table id="langues" class="table col-xs col-md shadow p-3 mb-5 bg-white rounded" >
-            <tbody>
-              <tr>
-                <th scope="col">Langues</th>
-                <th scope="col"></th>
-                <th scope="col"></th>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABjSURBVDhPYxh8IKxxz8aIlgO7kXFqz4GLGw9d2Y0Nn4xPvHg+IGA3Mj7j67uRIbHvxIPu7R/+I+PMySe/ffr1/z82fDkl7dv3/v7/yPh6TMyDUYNGDRo1CL9BVMu0gwwwMAAASHAdbJiC5dAAAAAASUVORK5CYII=">
-                </th>
-                <td class="t4">Français</td>
-                <td>Langue maternelle</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHqSURBVDhP3VPfT9NQFL7/KIn6ruHFNxMMJD7wQ5fA1Bm2oUFYdLNCDAiGuAUH1bGhkMXSrF03h0WQttu6jW3dPnvuXEUy4otPnORLbs7p/XrP953DrnAM+5On8xv5E58gfb82ua2cx03/Tl4Ir1oEOl+s357dLbx8Hjfv3hMsthwQKnoshq7jIPejhUC8golViyP8oQpldJSDzv381FsLiT0LWjCEYjCIyDvZYHeefikpiRTksTHYBwdoOV0kpAb/eBDRglhFcSsD2c3ZsoxGq4uJ6FedXb8vapPupbVdE/nQHAqBAJx6HScVByt7NY+ICD5Lp8hPT+MwEuEdZA9b8G+UQRxs+HH627NkFYQXn2zIGQWqz4dGqQSKPlFVK3r5cr2D9Wyd3yEQB1sOr1RyIyO4DPtDQxyDan0Qx/8jOt9a3BW51uzw51MbhlrwWtMth7dqiiLUmRlkpWNXN/tPayTUE9fy3HGbC0hCqq6g4v5PzG/97dqrdA2Wq8+ZriM3Pg4ttoSltN0T+4EgHbVdy8lKslTZTCO82bN6kP2+9TI+KmfodHuvozuLi0mD0TDRUKmzIaxlTG/oLiPyau7PSkYbnWYT0dcpk9F4RxfeG7ceprSLK/CvFbkxta08eiMf0Zr93rirF4z9ArbVoWR2fryyAAAAAElFTkSuQmCC">
-                </th>
-                <td class="t4">English</td>
-                <td>ELAO B2</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACRSURBVDhPYxh84Iyv78bzAQG7KcEgMxiux8Q8+N7f/58SDDJjEBp0NiT004PCoi+UYJAZDLtW73h97/TF/5RgkBkMe87cefDp1///lGCQGdQzaMH2i6+PXXvxnxIMMoMhpm3fp6J5175QgkFmMCT2nXjQvf3Df0owyIxBaFBY456NES0HdlOCQWZAy4BBAxgYACykBVJMfYAeAAAAAElFTkSuQmCC">
-                </th>
-                <td class="t4">Nederlands</td>
-                <td>ELAO B1</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="langue col-sm-12 col-md-6 col-lg" >
+          <ul class="shadow p-3 mb-5 bg-white rounded">
+            <div class="t3">Langues</div>
+            <hr>
+            <app-speaking 
+            *ngFor="let LGelement of skillsLangueElement" 
+            [speakingelement]="LGelement"
+            > 
+          </app-speaking>
+        </ul>
+        </div>
 
-          <table id="programmes" class="table col-xs col-md shadow p-3 mb-5 bg-white rounded" >
-            <tbody>
-                <tr>
-                    <th scope="col">Programmes</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                  </tr>
-              <tr>
-                <th scope="row">
-                    <img
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Microsoft_Office_2013_logo.svg/220px-Microsoft_Office_2013_logo.svg.png">
-                </th>
-                <td class="t4">Microsoft Office Suite</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://pbs.twimg.com/profile_images/798849987735994368/BOMGnS3W_400x400.jpg">
-                </th>
-                <td class="t4">Rational Software Architect</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img  
-                      src="http://icons.iconarchive.com/icons/papirus-team/papirus-apps/256/eclipse-icon.png">
-                </th>
-                <td class="t4">Eclipse IDE</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Visual_Studio_2013_Logo.svg/990px-Visual_Studio_2013_Logo.svg.png">
-                </th>
-                <td class="t4">Visual Studio</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/fr/thumb/3/32/Qt_Creator_Icon_Web.png/220px-Qt_Creator_Icon_Web.png">
-                </th>
-                <td class="t4">Qt Creator</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img  
-                      src="https://services.pcsoft.com/recrutement/FR/res/logo-pcsoft_C268304F_.svg">
-                </th>
-                <td class="t4">Windev/Mobile/Webdev</td>
-              </tr>
-              
-            </tbody>
-          </table>
+        <div class="programmes col-sm-12 col-md-6 col-lg" >
+          <ul class="shadow p-3 mb-5 bg-white rounded">
+            <div class="t3">Programmes</div>
+            <hr>
+            <app-program 
+              *ngFor="let pelement of skillsProgramElement" 
+              [programelement]="pelement"
+              > 
+            </app-program>
+          </ul>
+        </div>
 
-          <table id="lang-prog" class="table col-xs col-md shadow p-3 mb-5 bg-white rounded" >
-            <tbody>
-                <tr>
-                    <th scope="col">Languages</th>
-                    <th scope="col"></th>
-                    <th scope="col"></th>
-                  </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://humancoders-formations.s3.amazonaws.com/uploads/course/logo/110/thumb_bigger_formation-java-11.png">
-                </th>
-                <td class="t4">JAVA</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img  
-                      src="https://images.itnewsinfo.com/lmi/articles/grande/000000058700.jpg">
-                </th>
-                <td class="t4">JAVA EE</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img  
-                      src="https://ludu-assets.s3.amazonaws.com/course-icons/26/urA5bRhIewsQ2LgxuCu2">
-                </th>
-                <td class="t4">C</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxRzep6-CslVdq4sGiqhnKAmGgPqfieqN2fe8HA9_E8BNivmlE">
-                </th>
-                <td class="t4">C#</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png">
-                </th>
-                <td class="t4">C++</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img
-                      src="http://vikominstitute.com/wp-content/uploads/2017/06/feature_excel_vba.jpg">
-                </th>
-                <td class="t4">VBA</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img  
-                      src="https://services.pcsoft.com/recrutement/FR/res/logo-pcsoft_C268304F_.svg">
-                </th>
-                <td class="t4">WLangage</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/HTML5_logo_resized.svg/2000px-HTML5_logo_resized.svg.png">
-                </th>
-                <td class="t4">HTML</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
-                </th>
-                <td class="t4">CSS</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://antoineguillot.files.wordpress.com/2016/07/learn-javascript.png?w=344">
-                </th>
-                <td class="t4">JavaScript</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://image.freepik.com/icones-gratis/formato-de-arquivo-sql-simbolo_318-45794.jpg">
-                </th>
-                <td class="t4">SQL</td>
-              </tr>
-              <tr>
-                <th scope="row">
-                    <img 
-                      src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/220px-Angular_full_color_logo.svg.png">
-                </th>
-                <td class="t4">Angular</td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="programmes col-sm-12 col-md-6 col-lg" >
+          <ul class="shadow p-3 mb-5 bg-white rounded">
+            <div class="t3">Programmes</div>
+            <hr>
+            <app-proglanguage 
+              *ngFor="let pelement of skillsProgLanguageElement" 
+              [proglanguageelement]="pelement"
+            > 
+            </app-proglanguage>
+          </ul>
+        </div>
+        
         </div>
   </div>
 </section>
